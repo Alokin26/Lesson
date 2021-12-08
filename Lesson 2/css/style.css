@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap%27");
+
+body {
+    background-color: mintcream;
+    color: rgb(19, 18, 18);
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Caveat', cursive;
+}
+
+a {
+    color: rgb(181, 212, 233);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(181, 212, 233);
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul li a {
+    color: rgb(3, 2, 75);
+}

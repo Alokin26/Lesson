@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap%27");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: gainsboro;
+    color: #000;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: cursive;
+    margin: 15px 0;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+table {
+    width: 1050px;
+    margin: 15px auto;
+}
+
+code {
+    color: yellow;
+}
+
+p {
+    font-size: 24px;
+    margin: 15px 0;
+    width: 1000px;
+    height: 100px;
+    padding: 0 30px;
+    border-left: 5px solid blue;
+    line-height: 100px;
+}
+
+p:hover {
+    border-left: 5px solid red;
+}
