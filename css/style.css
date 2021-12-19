@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap%27");
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: linear-gradient(to right, pink, rgb(218, 158, 29));;
     color: rgb(0, 0, 0);
@@ -8,68 +14,49 @@ body {
     font-family: 'Caveat', cursive;
 }
 
-h1 {
-    font-size: 48px;
+h1, 
+h2, 
+h3, 
+p {
     text-align: center;
+    margin: 10px 0;
 }
 
 h2 {
-    margin-bottom: 5px;
-    font-size: 32px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 20px;
 }
 
-p {
-    text-align: center;
+.header {
+    padding: 20px;
 }
 
-a {
-    color: black;
-    text-decoration: none;
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
-.main {
-    width: 1800px;
-    height: 800px;
-    border-spacing: 25px;
-    margin: 15px auto;
-}
-
-.main-up, 
-.main-down {
-    border-radius: 5px;
-    margin: 0 15px;
-    padding: 0 25px;
-    -webkit-box-shadow: 1px 0px 17px 8px rgba(0,0,0,0.37); 
-    box-shadow: 1px 0px 17px 8px rgba(0,0,0,0.37);
-}
-
-.main-up {
-    width: 1000px;
-}
-
-.main-down {
-    width: 1000px;
-}
-
-.main-up td,
-.main-down td {
-    width: 300px;
-    text-align: center;
-    padding: 10px 0;
-    border-bottom: 1px solid black;
+.nav-lesson {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+    margin: 10px;
 }
 
 .btn {
-    transition: 0.2s;
+    display: inline-block;
     text-decoration: none;
-    padding: 10px 30px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-}
-
-.btn:hover{
-    -webkit-box-shadow: 1px 0px 17px 8px rgba(0,0,0,0.37); 
-    box-shadow: 1px 0px 17px 8px rgba(0,0,0,0.37);
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 29px;
+    width: 96px;
+    height: 31px;
+    border-radius: 4px;
+    border: 1px solid rgb(60, 183, 255);
+    background-color: white;
+    color: black;
 }
