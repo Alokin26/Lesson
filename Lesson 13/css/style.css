@@ -1,0 +1,159 @@
+@charset "UFT-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    background: #ededed;
+    font-family: Montserrat;
+}
+
+.container {
+    background: #fff;
+    box-sizing: 0 1px 4px 0 #000;
+    height: auto;
+    padding: 1rem 2rem;
+    max-width: 650px;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+h1,
+h2 {
+    font-family: sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+a {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+a.arrow {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    backface-visibility: hidden;
+}
+
+a.arrow::after {
+    content: '>';
+    position: absolute;
+    bottom: 0;
+    margin: 0 7px;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+a.arrow:hover::after,
+a.arrow:focus::after,
+a.arrow:active::after {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+}
+
+a.hexagon {
+    display: inline-block;
+    line-height: 1;
+    margin: 0;
+    padding-right: 3.5rem;
+    position: relative;
+}
+
+a.hexagon::after {
+    content: "";
+    background: url("http://www.candicendexter.com/images/hexagon.svg") center center no-repeat;
+    width: 21px;
+    height: 18px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 1.3rem;
+    line-height: 1.9rem;
+    margin: auto;
+}
+
+a.hexagon::before {
+    content: "";
+    background-image: url("http://www.candicendexter.com/images/long-arrow-alt-right-solid.svg") center top no-repeat;
+    width: 30px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 1rem;
+    padding: 0;
+    overflow: hidden;
+    margin: auto;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+a.hexagon:hover::after,
+a.hexagon:focus::after,
+a.hexagon:active::after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+a.hexagon:hover::before,
+a.hexagon:focus::before,
+a.hexagon:active::before {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+a.print[href]::after {
+    color: #000 !important;
+    content: "" attr(href) "" !important;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-top: 2px;
+}
+
+#link:link {
+    color: blue;
+}
+
+#viseted:visited {
+    color: red;
+}
+
+#hover:hover {
+    font-weight: bold;
+}
+
+#active-active {
+    color: red;
+}
+
+#focus:focus {
+    color: red;
+}
+
+ol li:first-child {
+    color: blue;
+}
+
+ol li:nth-child(3n) {
+    color: cadetblue;
+}
