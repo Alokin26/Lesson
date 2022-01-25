@@ -113,3 +113,35 @@ li {
     margin: 0 0 20px 0;
     background: url("../Picture/Space.jpg") transparent no-repeat center center / cover;
 }
+
+.text {
+    margin: 0px 0px 20px 0px;
+}
+
+.text__image {
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
+
+.text__image img {
+    max-width: 100%;
+}
+
+.cards {
+    margin: 0px 0px 20px 0px;
+}
+
+.cards__row {
+    margin: 0px -15px 20px -15px;
+    display: flex;
+}
+
+.cards__column {
+    padding: 0px 15px;
+    flex: 0 1 33.333%;
+}
+
+.cards__image {
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 58% 0px;
+}
