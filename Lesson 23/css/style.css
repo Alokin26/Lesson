@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,700;1,100&display=swap');
 
 * {
     padding: 0;
@@ -71,6 +71,7 @@ hr {
 
 .Y {
     transform: rotate(-90deg);
+    margin-right: -30px;
 }
 
 .foto {
@@ -83,8 +84,6 @@ hr {
     height: 520px;
     background-color: #f6f6f6;
     padding: 120px 253px;
-    display: flex;
-    justify-content: center;
 }
 
 .about {
@@ -102,7 +101,7 @@ hr {
 
 .programs {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .picture {
@@ -120,6 +119,10 @@ hr {
     justify-content: center;
 }
 
+.stars>i {
+    margin: 3px;
+}
+
 .photoshop>p,
 .ilustrator>p,
 .after_effects>p,
@@ -128,6 +131,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 #Contacts>h2,
@@ -152,8 +156,13 @@ hr {
     padding: 10px;
     background-color: black;
     color: #FFFFFF;
-    font-size: 18px;
     border-radius: 50px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
 }
 
 .icon {
@@ -162,3 +171,8 @@ hr {
     justify-content: space-around;
 }
 
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+	
+}
