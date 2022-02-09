@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2,
+h4 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.nav {
+    position: relative;
+    height: 2300px;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+.container {
+    position: relative;
+    width: 940px;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Y {
+    transform: rotate(-90deg);
+}
+
+.foto {
+    width: 940px;
+    height: 397px;
+    margin: 64px 0;
+}
+
+.inf {
+    height: 520px;
+    background-color: #f6f6f6;
+    padding: 120px 253px;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    margin-bottom: 70px;
+}
+
+#Skills {
+    margin: 64px;
+}
+
+#Skills>h2,
+#Skills>p {
+    margin: 50px;
+}
+
+.programs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+}
+
+.picture>img {
+    width: 90px;
+    height: 90px;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+}
+
+.photoshop>p,
+.ilustrator>p,
+.after_effects>p,
+.figma>p {
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contacts>h2,
+#Contacts>p {
+    margin: 50px;
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+.icon {
+    margin: 5% 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
