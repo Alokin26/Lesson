@@ -41,6 +41,50 @@ p {
     margin: auto;
 }
 
+.dropdown {
+    display: flex;
+    justify-content: flex-end;
+    margin: 29x 30px;
+    opacity: 0;
+}
+
+.dropdown-content>h4 {
+    text-align: start;
+}
+      
+.dropdown-content {
+    width: 375px;
+    height: 812px;
+    padding: 68px 26px;
+    display: none;
+    background-color: #FFFFFF;
+    font-size: 34px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+      
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+      
+.dropdown-content a:hover {background-color: #ddd;}
+      
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown:hover i {
+    display: none;
+}
+
+.Z {
+    transform: rotate(-90deg);
+    margin-right: -30px;
+}
+
 .container {
     position: relative;
     width: 940px;
@@ -75,6 +119,7 @@ hr {
 }
 
 .foto {
+    background-image: url(../Picture/1.png);
     width: 940px;
     height: 397px;
     margin: 64px 0;
@@ -174,5 +219,72 @@ hr {
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 480px) {
-	
+	.nav {
+        height: 3100px;
+    }
+    
+    .dropdown {
+        opacity: 1;
+    }
+    
+    .container {
+        width: 375px;
+        padding: 26px;
+    }
+
+    .menu,
+    hr,
+    .head>.Y {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .head {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .head>h1{
+        margin: 23px 0;
+    }
+
+    .foto {
+        width: 316px;
+        height: 478px;
+        background-image: url(../Picture/photo_2022-02-07_21-14-31.jpg);
+        margin: 37px 0;
+    }
+
+    .inf {
+        height: 491px;
+        padding: 81px 0;
+    }
+
+    .about {
+        margin-bottom: 30px;
+    }
+
+    #Skills {
+        margin: 83px 0;
+    }
+
+    .programs {
+        flex-direction: column;
+    }
+
+    .photoshop,
+    .after_effects,
+    .figma,
+    .ilustrator {
+        margin: 15px 0;
+    }
+
+    .icon {
+        margin: 0;
+        margin-top: 60px;
+        margin-bottom: 49px;
+    }
 }
