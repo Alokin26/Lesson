@@ -210,23 +210,12 @@ and (max-device-width: 480px) {
         text-decoration: none;
         display: block;
     }
-          
-    .dropdown-content a:hover {background-color: #ddd;}
-          
-    .dropdown:hover .dropdown-content {
-        display: flex;
-        flex-direction: column;
-    }
     
     .dropdown i {
         position: relative;
         right: 30px;
         top: 29px;
     }
-
-    /* .dropdown-content i {
-
-    } */
     
     .Z,
     .dropdown-content i {
