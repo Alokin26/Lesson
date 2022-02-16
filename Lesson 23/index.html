@@ -7,27 +7,26 @@
         <title>Lesson 23</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-        <script src="script.js"></script>
     </head>
     <body>
         <div class="nav">
-            <div class="dropdown">
-                <i class="fa fa-bars fa-2x mobmenu" aria-hidden="true"></i>
-                <div class="dropdown-content">
-                    <div class="button-delete-row">
-                        <i class="fa fa-times" aria-hidden="true"></i>
-                    </div>
-                    <h4><span>Home</span></h4>
-                    <a href="#About_me"><h4>About me</h4></a>
-                    <a href="#Skills"><h4>Skills</h4></a>
-                    <a href="#Portfolio"><h4>Portfolio</h4></a>
-                    <a href="#Contacts"><h4>Contacts</h4></a>
-                    <h4 class="Z">RU | ENG</h4>
+            <nav class="mobile-menu">
+                <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+                <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
+                <div class="mobile-menu__container">
+                    <ul class="mobile-menu__list">
+                        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Home</a></li>
+                        <li class="mobile-menu__item"><a href="#About_me" class="mobile-menu__link">About me</a></li>
+                        <li class="mobile-menu__item"><a href="#Skills" class="mobile-menu__link">Skills</a></li>
+                        <li class="mobile-menu__item"><a href="#Portfolio" class="mobile-menu__link">Portfolio</a></li>
+                        <li class="mobile-menu__item"><a href="#Contacts" class="mobile-menu__link">Contacts</a></li>
+                        <li class="mobile-menu__item Z"><a href="#" class="mobile-menu__link">RU | ENG</a></li>
+                    </ul>
                 </div>
-            </div>
+            </nav>
             <div class="container">
                 <div class="menu">
-                    <h4>Home</h4>
+                    <h4><span>Home</span></h4>
                     <a href="#About_me">
                         <h4>About me</h4>
                     </a>
@@ -149,5 +148,6 @@
                 </div>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
