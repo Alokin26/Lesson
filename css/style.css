@@ -7,19 +7,28 @@
 }
 
 body {
-    background: linear-gradient(to right, pink, rgb(218, 158, 29));;
+    background: #f9f9f9;
     color: rgb(0, 0, 0);
     font-size: 16px;
     font-weight: normal;
     font-family: 'Caveat', cursive;
 }
 
+hr {
+    margin: 10px 0;
+    background-color: #000;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
 h1, 
 h2, 
 h3, 
 p {
-    text-align: center;
-    margin: 10px 0;
+    margin: 10px 10px;
     width: 100%;
 }
 
@@ -58,9 +67,18 @@ a {
     box-shadow: 5px 5px 27px 4px rgba(0, 0, 0, 0.07);
 }
 
+.first:hover {
+    background-color: rgba(0, 255, 0, 0.151);
+}
+
+.second:hover {
+    background-color: rgba(0, 0, 255, 0.151);
+}
+
 .nav-lesson {
     width: 25%;;
     margin: 0 auto;
+    padding: 10px 20px;
     height: auto;
     min-height: 50px;
     border: 1px solid black;
@@ -70,11 +88,15 @@ a {
     -webkit-box-shadow: 5px 5px 27px 4px rgba(0, 0, 0, 0.22);
     -moz-box-shadow: 5px 5px 27px 4px rgba(0, 0, 0, 0.22);
     box-shadow: 5px 5px 27px 4px rgba(0, 0, 0, 0.22);
+    background-color: #f9f9f9;
 }
 .nav-lesson-inner {
-    width: auto;
-    height: auto;
-    border-top: 1px solid black;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .btn {
